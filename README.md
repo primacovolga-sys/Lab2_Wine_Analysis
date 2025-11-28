@@ -1,15 +1,12 @@
-# Wine Analysis – Lab 2 (Colab + Streamlit)
+# Laborator 2 – Analiza datelor despre vinuri
 
-Acest repository conține lucrările realizate în cadrul **Laboratorului 2**:
-analiză exploratorie a datelor (EDA) pe un set de date cu vinuri, analiză de text
-descrierilor și o aplicație interactivă în **Streamlit**.
+Acest repository conține materialele pentru lucrarea de laborator nr. 2:
 
-## 📂 Structura proiectului
+- `Lab2_Wine_Colab.ipynb` – notebook Google Colab cu analiza completă a dataset-ului.
+- `Raport_Lab2_Vinuri.docx` și `Raport_Lab2_Vinuri.pdf` – raportul final în format Word și PDF.
+- Folderul `images/` – toate figurile utilizate în raport (histograme, scatter plot, boxplot, wordcloud etc.).
+- (Opțional) `app.py` – aplicația interactivă construită cu Streamlit.
 
-```text
-app/                 – aplicația Streamlit (app.py)
-data/                – fișierele cu date (wine_cleaned.csv)
-notebooks/           – notebook-ul Google Colab (analiza pas cu pas)
-report/              – raportul de laborator (Word / PDF)
-screenshots/         – capturi de ecran cu rezultate (opțional)
-requirements.txt     – pachetele Python necesare
+Structură:
+- Rădăcină: notebook + raport + cod.
+- `images/`: grafice generate în Colab și utilizate în raport.
