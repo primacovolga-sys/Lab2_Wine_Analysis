@@ -1,12 +1,40 @@
-# Laborator 2 – Analiza datelor despre vinuri
+Lab 2 — Wine Data Analysis
 
-Acest repository conține materialele pentru lucrarea de laborator nr. 2:
+Acest proiect reprezintă Lucrarea de laborator nr. 2, în care am analizat un set de date cu peste 57.000 de înregistrări despre vinuri: preț, punctaj, țară, categorie și descriere.
 
-- `Lab2_Wine_Colab.ipynb` – notebook Google Colab cu analiza completă a dataset-ului.
-- `Raport_Lab2_Vinuri.docx` și `Raport_Lab2_Vinuri.pdf` – raportul final în format Word și PDF.
-- Folderul `images/` – toate figurile utilizate în raport (histograme, scatter plot, boxplot, wordcloud etc.).
-- (Opțional) `app.py` – aplicația interactivă construită cu Streamlit.
+Proiectul include:
 
-Structură:
-- Rădăcină: notebook + raport + cod.
-- `images/`: grafice generate în Colab și utilizate în raport.
+curățarea datelor
+
+analiza statistică
+
+vizualizări grafice
+
+analiză text (wordcloud)
+
+aplicație interactivă Streamlit
+
+notebook Colab + raport PDF
+
+Conținutul repository-ului:
+Lab2_Wine_Analysis/
+│
+├── app.py                     -> aplicația Streamlit
+├── requirements.txt           -> bibliotecile necesare
+├── Lab2_Wine_Colab_V2.ipynb   -> notebook Google Colab cu analiza completă
+├── Laboratorul 2 – Raport.pdf -> raportul final al lucrării
+├── images/                    -> toate graficele generate
+└── wine_cleaned.xlsx          -> datasetul folosit
+
+Aplicația online (Streamlit Cloud):
+https://lab2wineanalysis-hvq2crupbn6uw5appatj8bd.streamlit.app/ 
+
+Concluzii principale:
+
+Prețul nu determină direct punctajul vinului
+
+Vinurile din Chile, Spain și Portugal au cel mai bun raport calitate/preț
+
+Cele mai scumpe vinuri sunt din SUA și Franța
+
+Analiza text arată că termenii „rich”, „nose”, „fruit”, „aroma” sunt foarte des folosiți
